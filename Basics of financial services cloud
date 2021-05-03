@@ -1,0 +1,30 @@
+1) Setup My Domain and deploy it to users
+2) Assign PSL and PS of Financial Services Cloud standard and Advisory Access to the users
+Wealth Management - is the financial services cloud
+
+go to lighnting app builder > client record page > clone > drag and drop the Group members (configurable)
+
+FSC concepts:
+A client can belongs to many group.
+A group can contain number of client accounts.
+A client can have only one primary group. A group can have only one primary member
+The particular client data can be rolledup to only his/her primary group
+A group can have only one primary member
+
+to access group info about a client
+account > record > relationships > 
+
+to edit which objects to rollup or their sort order
+go to object manager > account contact relationships > fields > rollups
+
+Client List dashboard - one place shop to analyze the client data. Open this in tableau CRM
+below this dashboard you can find table widget. All clients in this table have quick actions tied up to them. 
+To customize those quick actions 
+go to Account-Contact data set click the setup icon > search for field name > configure the quick actions that you want.
+
+Person accounts: Combine Account and Contact fields into a single record.
+In FSC, if you want to add record types and pagelayouts to the Account object, do that on Person Account Object
+if recordtype is created but not added to the different pagelayout, then its not shown
+to make them visible during creation
+setup > custom meta data types > Individual Record Type Mapper >
+Manage Individual Record Type Mappers > new > and configure the record type mapping
