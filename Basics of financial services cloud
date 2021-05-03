@@ -41,3 +41,9 @@ if one is made parent, then the other is automatically made as dependent
 So in FSC alone, after creating the record type
 go to setup > custom metadata types > Individual/Group record type mapper should be chosen
 
+Financial accounts: Any accounts in FSC is a type of Financial accounts
+
+Other FSC objects in FSC
+Holdings,Securities,Assets and Liabilities,Cards,Revenues,Financial goals,Billing Statements,Charges and fees
+
+
