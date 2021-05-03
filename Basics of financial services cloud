@@ -26,5 +26,18 @@ Person accounts: Combine Account and Contact fields into a single record.
 In FSC, if you want to add record types and pagelayouts to the Account object, do that on Person Account Object
 if recordtype is created but not added to the different pagelayout, then its not shown
 to make them visible during creation
-setup > custom meta data types > Individual Record Type Mapper >
+create record types and assign them the pagelayouts in Account
+and follow the below step (highly required for FSC alone)
+setup > custom meta data types > Individual/Group Record Type Mapper >
 Manage Individual Record Type Mappers > new > and configure the record type mapping
+
+A group can also have its related accounts and contacts
+Household is the default group given by FSC
+Person account is also default given by FSC
+
+FSC also helps you to create Contact-Contact/Account-Account relationship with reciprocal role,
+if one is made parent, then the other is automatically made as dependent
+
+So in FSC alone, after creating the record type
+go to setup > custom metadata types > Individual/Group record type mapper should be chosen
+
