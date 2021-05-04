@@ -25,4 +25,10 @@ go to account related list tab, create an action plan by choosing an action plan
 
 with new releases, document checklist can also be added to action plan templates, they can be cloned and packaged as well
 
+if you installed action plan templates from managed package, you need to clone them and use them.
+You can also setup action plans in experience cloud sites.
+action plan templates can be added to Home page in experience site
+action plans can be added to record pages in experience sites
+
+
                    
