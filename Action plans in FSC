@@ -1,4 +1,28 @@
 Action plan: for automating repetitive tasks and assigning tasks to someone
 Action plan template: You create the structure in the action plan template and generate action plan out of it as 
                       a running instance
+
+Give user permissions to action plans
+1) assign Action plan permission sets
+2) go to their profiles, give access to CRUD, to these objects - Action Plan and Action Plan Template
+
+Add action plan and action plan template tabs in Welath Management apps and your required apps
+go to account page alyout, add action plans as related lists there
+add Action plan list - Lightning component in client record pages using lightning app builder
+
+Setup business hours, holidays so that they dont count in action plans
+setup > Buiness hours > configure
+setup > Holidays > configure //dont select recurring holidays
+
+Account Teams and roles:
+ Group of persons who work on a client
+ 
+setup > account teamns > enable and add your custom account team roles
+setup > Mass Reassign Account Teams > add your users to the account team roles
+
+go to action plan template object and create an action plan template and publish them(highly required)
+go to account related list tab, create an action plan by choosing an action plan template
+
+with new releases, document checklist can also be added to action plan templates, they can be cloned and packaged as well
+
                    
