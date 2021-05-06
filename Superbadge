@@ -1,0 +1,7 @@
+There are actually 3 types of accounts can be created
+1) Business account => for company and person
+2) Person account => for individual person
+3) Group Household => for associating a group of members
+
+a Person account can belong to only one household group but can be related to many household groups
+Only person accounts can be added in household groups
