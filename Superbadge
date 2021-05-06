@@ -5,3 +5,10 @@ There are actually 3 types of accounts can be created
 
 a Person account can belong to only one household group but can be related to many household groups
 Only person accounts can be added in household groups
+
+Go to setup > custom settings > Wealth application configuration > enable rollups
+to add a new life event > setup > object manager > person life events > event (picklist value) > add a new one
+
+Person life events will be tied up to person accounts
+Business milestones will be ties up to business accounts and household groups
+
